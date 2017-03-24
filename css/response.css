@@ -1,0 +1,394 @@
+@media only screen and (min-width: 1170px) {
+	/**********公共部分***********/
+	.container {
+		width: 11.7rem;
+	}
+	/************header**********/
+	header {
+		background-color: rgba(117, 118, 125, 0.3);
+	}
+	.showMenu {
+		display: none;
+	}
+	header nav .container {
+		justify-content: space-between;
+	}
+	#logo,
+	#logo span:nth-child(1) {
+		font-size: 0.2rem;
+	}
+	#logo,
+	header nav a {
+		line-height: 0.80rem;
+	}
+	/**************************mid样式*******************************/
+	.headerContextText p {
+		font-size: 0.14rem;
+		line-height: 0.2rem;
+	}
+	.headerContextText h2 {
+		font-size: 0.4rem;
+	}
+	.headerContextText h2 span {
+		font-size: 0.5rem;
+	}
+	.headerContextText p:nth-child(1) a {
+		font-size: 0.15rem;
+	}
+	/*************************midContext***********************/
+	.memberList {
+		margin-top: 0.75rem;
+		padding-bottom: 1rem;
+	}
+	.textList h4 {
+		font-size: 0.36rem;
+	}
+	.textList p {
+		line-height: 0.4rem;
+	}
+	.memberList div p:nth-child(4) {
+		font-size: 0.14rem;
+	}
+	.memberList div p:nth-child(3) {
+		font-size: 0.15rem;
+	}
+	/**********************workingstandards样式*************************/
+	.standards {
+		justify-content: space-between;
+		text-align: left;
+	}
+	.standardsContext h3 {
+		font-size: 0.2rem;
+	}
+	.standardsContext p,
+	.standardsContext a {
+		font-size: 0.14rem;
+		padding-bottom: 0.7rem;
+	}
+	/**********************teamMember************************/
+	#teamMember .articleItem {
+		display: flex;
+		margin-top: 0.8rem;
+		justify-content: space-between;
+		width: 100%;
+	}
+	#teamMember .container .articleItem:nth-child(odd) {
+		flex-direction: row;
+		text-align: left;
+	}
+	#teamMember .container .articleItem:nth-child(even) {
+		flex-direction: row-reverse;
+		text-align: right;
+	}
+	#teamMember .itemText,
+	#teamMember .itemPic {
+		width: 5.55rem;
+		height: 3.13rem;
+	}
+	/***********************collaborate***********************/
+	#collaborate {
+		height: 7rem;
+	}
+	#collaborate p:nth-child(3) {
+		width: 6.5rem;
+	}
+	#collaborate .collaborateTitle {
+		font-size: 0.6rem;
+		line-height: 1.28rem;
+	}
+	.collaborateContext .circular {
+		margin: 1.1rem auto;
+	}
+	/**************************footer1******************************/
+	.footerList {}
+	#footer1 .container {
+		justify-content: space-around;
+	}
+	#footer1 .container {
+		margin: 0.5rem 0;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1169px) {
+	/**********公共部分***********/
+	.container {
+		width: 96%;
+	}
+	/**********header***********/
+	header {
+		background-color: rgba(117, 118, 125, 0.3);
+	}
+	header #logo {
+		display: none;
+	}
+	header span a {
+		font-size: 0.15rem;
+	}
+	header span {
+		margin: auto;
+	}
+	.showMenu {
+		display: none;
+	}
+	#logo,
+	#logo span:nth-child(1) {
+		font-size: 0.25rem;
+	}
+	#logo,
+	header nav a {
+		line-height: 0.6rem;
+	}
+	/****************************mid**********************************/
+	.headerContextText p {
+		font-size: 0.2rem;
+		line-height: 0.32rem;
+	}
+	.headerContextText h2 {
+		font-size: 0.60rem;
+		margin: 0.25rem 0;
+	}
+	.headerContextText h2 span {
+		font-size: 0.70rem;
+	}
+	.headerContextText p:nth-child(1) a {
+		font-size: 0.16rem;
+	}
+	/*************************midContext***********************/
+	.memberList {
+		padding-bottom: 1rem;
+		flex-wrap: wrap;
+	}
+	.memberList>div {
+		width: 48%;
+	}
+	.textList h4 {
+		font-size: 0.3rem;
+	}
+	.memberList div p:nth-child(4) {
+		font-size: 0.16rem;
+	}
+	.memberList div p:nth-child(3) {
+		font-size: 0.17rem;
+	}
+	/**********************workingstandards样式*************************/
+	.standards {
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.standardsContext {
+		align-items: center;
+	}
+	.standardsContext h3 {
+		font-size: 0.22rem;
+	}
+	.standardsContext p,
+	.standardsContext a {
+		font-size: 0.16rem;
+	}
+	.standardsContext a {
+		padding-bottom: 0.4rem;
+	}
+	/**********************teamMember************************/
+	#teamMember .itemPic {
+		width: 5.55rem;
+		height: 3.13rem;
+	}
+	#teamMember .itemText {
+		width: 80%;
+	}
+	#teamMember .articleItem {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	/***********************collaborate***********************/
+	#collaborate {
+		height: 6.5rem;
+	}
+	#collaborate p:nth-child(3) {
+		width: 88%;
+	}
+	#collaborate .collaborateTitle {
+		font-size: 0.4rem;
+		line-height: 1rem;
+	}
+	.collaborateContext .circular {
+		margin: 0.9rem auto;
+	}
+	/**************************footer1******************************/
+	#footer1 .container {
+		justify-content: space-around;
+	}
+	#footer1 .container {
+		margin: 0.60rem 0;
+	}
+}
+
+@media only screen and (max-width: 799px) {
+	/**********公共部分***********/
+	.container {
+		width: 100%;
+	}
+	/************header**********/
+	header {
+		background-color: rgba(117, 118, 125, 1);
+	}
+	header span a:hover {
+		border: none;
+	}
+	header span i {
+		display: none;
+	}
+	header span {
+		width: 100%;
+	}
+	header nav .container {
+		width: 100%;
+		position: relative;
+		align-items: center;
+	}
+	#logo,
+	#logo span:nth-child(1) {
+		font-size: 0.18rem;
+	}
+	#logo span:nth-child(2) {
+		display: none;
+	}
+	#logo {
+		line-height: 0.5rem;
+	}
+	#logo {
+		margin-left: 4%;
+	}
+	header .navMenu a {
+		font-size: 0.14rem;
+		line-height: 0.4rem;
+		width: 100%;
+		padding: 0;
+		text-align: center;
+		display: block;
+		background: rgb(117, 118, 125);
+	}
+	header .navMenu {
+		position: absolute;
+		top: 0.51rem;
+		box-shadow: #ccc 0 0.5px 1px;
+		display: none;
+	}
+	.showMenu {
+		width: 35px;
+		height: 28px;
+		box-shadow: #fff 0 0 2px;
+		border: none;
+		border-radius: 2px;
+		background: rgb(117, 118, 125);
+		display: block;
+		margin-right: 4%;
+	}
+	.showMenu:focus {
+		outline: none;
+	}
+	.line {
+		width: 60%;
+		height: 0;
+		border-top: 0.1px solid #ddd;
+		margin: 5px auto;
+	}
+	/*************************midContext***********************/
+	#main {
+		height: 4.8rem;
+	}
+	.headerContextText p {
+		font-size: 0.14rem;
+		line-height: 0.2rem;
+	}
+	.headerContextText h2 {
+		font-size: 0.3rem;
+	}
+	.headerContextText h2 span {
+		font-size: 0.4rem;
+	}
+	.headerContextText p:nth-child(1) a {
+		font-size: 0.16rem;
+	}
+	.memberList {
+		padding-bottom: 1rem;
+		flex-wrap: wrap;
+	}
+	.textList h4 {
+		font-size: 0.2rem;
+	}
+	.memberList div p:nth-child(4) {
+		font-size: 0.14rem;
+	}
+	.memberList div p:nth-child(3) {
+		font-size: 0.12rem;
+	}
+	/**********************workingstandards样式*************************/
+	.standardsContext {
+		align-items: center;
+	}
+	.standards {
+		align-items: center;
+		flex-direction: column;
+	}
+	.standardsContext h3 {
+		font-size: 0.24rem;
+	}
+	.standardsContext p,
+	.standardsContext a {
+		font-size: 0.18rem;
+	}
+	.standardsContext a {
+		padding-bottom: 0.3rem;
+		justify-content: left;
+	}
+	/**********************teamMember************************/
+	#teamMember .articleItem {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#teamMember .itemPic {
+		width: 98%;
+		height: 3.13rem;
+	}
+	.itemText {
+		width: 100%;
+	}
+	/***********************collaborate***********************/
+	#collaborate {
+		height: 6rem;
+	}
+	#collaborate p:nth-child(3) {
+		width: 80%;
+	}
+	#collaborate .collaborateTitle {
+		font-size: 0.3rem;
+		line-height: 0.6rem;
+	}
+	.collaborateContext .circular {
+		margin: 0.6rem auto;
+	}
+	/**************************footer1******************************/
+	.footerList {
+		display: none;
+	}
+	#footer1 .container {
+		display: flex;
+		margin: 0.05rem 0;
+	}
+	footer .container {
+		font-size: 0.12rem;
+	}
+	footer .container #logo {
+		margin-left: 0.08rem;
+	}
+	footer .container #logo span,
+	footer .container #logo {
+		font-size: 0.15rem;
+	}
+}

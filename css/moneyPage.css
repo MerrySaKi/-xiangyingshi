@@ -1,0 +1,266 @@
+/*****************公共样式********************/
+
+body,
+html {
+	height: 100%;
+	width: 100%;
+	font-size: 125%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.allCenter {
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	max-width: 57.6rem;
+}
+
+a{
+	text-decoration: none;
+}
+/*******************sectionContaier样式********************/
+
+#sectionContainer {
+	width: 100%;
+	height: 100%;
+	background: black;
+	overflow: hidden;
+}
+
+#sectionContainer .swiper-slide {
+	width: 100%;
+	height: 100%;
+}
+#sectionContainer .swiper-slide {
+	display: flex;
+}
+/**************************header***************************/
+
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	
+}
+
+header nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+header nav .container {
+	display: flex;
+}
+
+header nav a {
+	color:#fff;
+}
+
+
+/*************************#hello***********************************/
+
+#hello {
+	background: rgb(116, 99, 149);
+	color: #fff;
+	
+}
+
+#hello .container {}
+
+
+#hello .container .hi:nth-child(2) {
+	font-size: 2rem;
+}
+
+#hello .container .hi:nth-child(3),
+#hello .container p a {
+	font-size: 0.8rem;
+}
+
+#hello .container p {
+	text-align: right;
+}
+#hello .container p a {
+	margin-right:5%;
+	color:#eee;
+}
+#hello .container p a:hover{
+	color:#fff;
+	border-bottom: 1px solid #fff;
+}
+
+/*****************************about********************************/
+#about {
+	position:relative;
+	font-family:sans-serif;
+	background-color: #fff;
+}
+#about ::before{
+	content: "";
+	width:1.4rem;
+	height: 1.4rem;
+	background:rgb(116, 99, 149);
+	transform: rotate(45deg);
+	position: absolute;
+	top: -0.7rem;
+	left:50%;
+	margin-left:-0.7rem;
+}
+#about .container{
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+}
+#about img {
+	margin:0 auto;
+}
+
+.containerTitle{
+	text-align: center;
+	line-height: 1.3rem;
+	margin-bottom: 1.2rem;
+	color:#000;
+	font-weight:300;
+	font-size: 1.2rem;
+}
+
+.containerTitle::after{
+	content: "";
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top:12px;
+	background-color: #333;
+	height: 1px;
+}
+.container .aboutContext p{
+	color:#666;
+	width: 45%;
+	font-weight:300;
+}
+.container .aboutContext{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.8rem;
+}
+/*#about .container .aboutContext{
+	align-items: center;
+}*/
+/**************************#more **************************/
+
+
+#more {
+	background: darkblue;
+		background-color: #fff;
+}
+#more .container{
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+}
+#more .container .containerTitle{
+	margin-bottom: 1.8rem;
+}
+#more .container .aboutContext span{
+	font-style: italic;
+}
+/*************************contact**************************/
+#contact{
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#contact .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#contact .container div p:nth-child(2){
+	line-height: 1.7rem;
+	font-size:1.2rem;
+}
+#contact .container div p:nth-child(3){
+	margin-top:2rem;
+}
+#contact .container div p:nth-child(3),#contact .container div p:nth-child(4){
+	line-height: 1.5rem;
+	font-size:0.8rem;
+}
+#contact .leftContext{
+	background: #33b294;
+	position: relative;
+	color:#fff;
+}
+#contact .leftContext::after{
+	background: #33b294;
+	content: "";
+	height: 100%;
+	width: 500%;
+	position: absolute;
+	top:0;
+    left:-499.5%;
+}
+#contact .centerContext button{
+	background-color: #000;
+}
+#contact .rightContext button{
+	background-color: #55d0ff;
+}
+
+#contact .btnRead{
+	width: 8.25rem;
+	height:2.1rem;
+	border-radius: 5px;
+	border:none;
+	font-size: 1rem;
+	color:#FFFFFF;
+}
+.btnRead img{
+	width: 166px;
+	transition: all .5s ease;
+}
+#contact .btnRead:focus{
+	outline: none;
+}
+#contact .btnRead:hover{
+	opacity: 0.8;
+}
+#contact .rightContext p:nth-child(2){
+	color: #55d0ff;
+}
+/*****************footer*************************/
+footer{
+	display: none;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 999;
+	justify-content: center;
+}
+
+footer .container{
+	display: flex;
+	justify-content: space-between;
+	color: #aaa;
+	width: 57.6rem;
+}
+footer p {
+	font-size: 0.8rem;
+	padding: 1rem 0;
+}
+footer .container i{
+	padding: 0 0.5rem;
+	background: #ddd;
+	color: #fff;
+}

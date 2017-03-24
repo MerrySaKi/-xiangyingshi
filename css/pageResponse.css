@@ -1,0 +1,253 @@
+	@media only screen and (min-width: 1170px) {
+		/**********公共部分***********/
+		/***********header************/
+		/***********hello*-************/
+		#hello .container .hi:nth-child(1) {
+			font-size: 3rem;
+		}
+		/**************contact*****************/
+		#contact .container {
+			height: 80%;
+		}
+		#contact .btnRead {
+			margin-top: 3rem;
+		}
+		nav .navMenu:nth-child(3) {
+			display: none;
+		}
+		#contact .container div p:nth-child(1) {
+			line-height: 0.8rem;
+			font-size: 1rem;
+			margin-bottom: 0.8rem;
+		}
+		/*****************about********************/
+		.containerTitle,
+		.container .aboutContext p {
+			font-size: 1.02rem;
+		}
+		#about img {
+			max-width: 80%;
+		}
+	}
+	
+	@media screen and (min-width: 800px) and (max-width: 1169px) {
+		/**********公共部分***********/
+		body,
+		html {
+			height: 100%;
+			width: 100%;
+			font-size: 100%;
+		}
+		#contact .container {
+			height: 75%;
+		}
+		#contact .btnRead {
+			margin-top: 2.5rem;
+		}
+		nav .navMenu:nth-child(3) {
+			display: none;
+		}
+		/********************about***********************/
+		.containerTitle,
+		.container .aboutContext p {
+			font-size: 1rem;
+		}
+		#about img {
+			max-width: 75%;
+		}
+		/***********************contact****************************/
+		#contact .container div p:nth-child(1) {
+			line-height: 0.8rem;
+			font-size: 1rem;
+			margin-bottom: 0.8rem;
+		}
+	}
+	
+	@media screen and (min-width: 425px) and (max-width: 799px) {
+		/**********公共部分***********/
+		header nav a {
+			font-size: 1.05rem;
+			padding: 2rem;
+		}
+		/********************about***********************/
+		.containerTitle {
+			font-size: 0.85rem
+		}
+		.container .aboutContext p {
+			font-size: 0.7rem;
+			line-height: 1.2rem;
+		}
+		/**********************more***************************/
+		#more .container .aboutContext span {
+			line-height: 0.65rem;
+			font-size: 0.7rem;
+		}
+		/************************contact*******************************/
+		#contact .container {
+			display: block;
+		}
+		#contact .container div {
+			padding: 1rem 0;
+		}
+		#contact .container div p:nth-child(1) {
+			line-height: 2rem;
+			font-size: 1.3rem;
+			margin-bottom: 0.5rem;
+		}
+		#contact .container div p:nth-child(2) {
+			line-height: 1rem;
+			font-size: 0.8rem;
+		}
+		#contact .container div p:nth-child(3) {
+			margin-top: 0.5rem;
+		}
+		#contact .container div p:nth-child(3),
+		#contact .container div p:nth-child(4) {
+			line-height: 1.2rem;
+			font-size: 1rem;
+		}
+		#contact .centerContext,
+		#contact .rightContext {
+			width: 48%;
+			display: inline-flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		#contact .btnRead {
+			width: 6rem;
+			height: 2rem;
+			border-radius: 4px;
+			margin-top: 0.5rem;
+		}
+		#contact .leftContext {
+			background: #33b294;
+			color: #fff;
+			width: 100%;
+		}
+		#contact .leftContext::after {
+			content: none;
+		}
+	}
+	
+	@media only screen and (min-width: 799px) {
+		/**********公共部分***********/
+		header nav a {
+			font-size: 1rem;
+			padding: 2.8rem;
+		}
+		/**********contact****************/
+		#contact .container div {
+			width: 30%;
+			padding: 8rem 0;
+		}
+	}
+	
+	@media only screen and (max-width: 799px) {
+		/**********公共部分***********/
+		.container {
+			width: 96%;
+		}
+		#hello .container h3:nth-child(2) {
+			display: none;
+		}
+		nav .navMenu:nth-child(2) {
+			display: none;
+		}
+		nav .navMenu:nth-child(3) {
+			display: flex;
+			justify-content: space-between;
+			width: inherit;
+		}
+		/**********about***************/
+		#about img {
+			max-width: 90%;
+		}
+		footer .container {
+			justify-content: flex-end;
+		}
+		footer .container p {
+			display: none;
+		}
+	}
+	
+	@media only screen and (max-width: 425px) {
+		/**********heade***********/
+		header nav .navMenu a {
+			font-size: 0.85rem;
+		}
+		/**********about&&more************/
+		.container .aboutContext p {
+			line-height: 1rem;
+			color: #666;
+			width: 48%;
+			font-weight: 300;
+		}
+		#about::before {
+			opacity: 0;
+		}
+		.container .aboutContext p {
+			font-size: 0.45rem;
+		}
+		#more .container .aboutContext span {
+			line-height: 0.5rem;
+			font-size: 0.4rem;
+			display: none;
+		}
+		/********************hello*****************/
+		#hello .container .hi:nth-child(1) {
+			font-size: 1.5rem;
+		}
+		/*******************contact*************************/
+		#contact {
+			flex-direction: column;
+		}
+		#contact .container {
+			flex-direction: column;
+		}
+		#contact .container div p:nth-child(1) {
+			line-height: 1.5rem;
+			font-size: 1rem;
+			margin-bottom: 0.4rem;
+		}
+		#contact .container div p:nth-child(2) {
+			display: none;
+		}
+		#contact .container div p:nth-child(3) {
+			margin-top: 0.4rem;
+		}
+		#contact .container div p:nth-child(3),
+		#contact .container div p:nth-child(4) {
+			line-height: 1rem;
+			font-size: 0.8rem;
+		}
+		#contact .btnRead {
+			width: 5rem;
+			height: 1.5rem;
+			border-radius: 4px;
+			margin-top: 0.5rem;
+			font-size: 0.8rem;
+		}
+		.btnRead img {
+			width: 5rem;
+		}
+		
+		footer .container i {
+			font-size: 2rem;
+		}
+	}
+	
+	@media only screen and (max-width: 320px) {
+		/**********heade***********/
+		/********************hello*****************/
+		#hello .container .hi:nth-child(3),
+		#hello .container p a {
+			font-size: 0.6rem;
+		}
+		.containerTitle {
+			font-size: 1rem;
+			margin-bottom: 1rem;
+		}
+		.containerTitle::after {
+			content: none;
+		}
+	}
